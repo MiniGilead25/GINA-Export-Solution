@@ -46,8 +46,8 @@ jobs:
     - name: Git Fetch and Commit 
       run: |
         git fetch --all  
-        git config --global user.email "minukumari130@gmail.com"
-        git config --global user.name "Minik1301"
+        git config --global user.email "minu.kumari2@gilead.com"
+        git config --global user.name "MiniGilead25"
         git checkout main
         git add --all 
         git commit -m "Updates from the dev environment"
