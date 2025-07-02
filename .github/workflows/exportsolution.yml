@@ -41,7 +41,7 @@ jobs:
         client-secret: ${{ secrets.DATAVERSE_CLIENT_SECRET }}
         tenant-id: ${{env.TENANT_ID}}
         solution-name: ${{env.SOLUTION_NAME}}
-        solution-output-file: solution_export/${{ secrets.SOLUTION_NAME }}.zip
+        solution-output-file: solution_export/${{env.SOLUTION_NAME}}.zip
 
     - name: Git Fetch and Commit 
       run: |
